@@ -105,7 +105,7 @@ _G.packer_plugins = {
     url = "https://github.com/saadparwaiz1/cmp_luasnip"
   },
   ["dashboard-nvim"] = {
-    config = { "\27LJ\2\n�\4\0\0\6\0\15\0\0236\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0005\3\5\0005\4\4\0=\4\6\0035\4\a\0=\4\b\0034\4\5\0005\5\t\0>\5\1\0045\5\n\0>\5\2\0045\5\v\0>\5\3\0045\5\f\0>\5\4\4=\4\r\3=\3\14\2B\0\2\1K\0\1\0\vconfig\rshortcut\1\0\5\ngroup\rConstant\ticon\t \bkey\6d\vaction\23Telescope dotfiles\tdesc\rdotfiles\1\0\5\ngroup\vString\ticon\t \bkey\6a\vaction\18Telescope app\tdesc\tApps\1\0\5\ngroup\rFunction\ticon\t \bkey\6f\vactionCTelescope find_files find_command=rg,--ignore,--hidden,--files\tdesc\nFiles\1\0\5\ngroup\fInclude\ticon\t \bkey\6u\vaction\16Lazy update\tdesc\vUpdate\fproject\1\0\1\venable\2\16week_header\1\0\1\17disable_move\2\1\0\1\venable\2\1\0\1\ntheme\nhyper\nsetup\14dashboard\frequire\0" },
+    config = { "\27LJ\2\n�\4\0\0\6\0\15\0\0236\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0005\3\5\0005\4\4\0=\4\6\0035\4\a\0=\4\b\0034\4\5\0005\5\t\0>\5\1\0045\5\n\0>\5\2\0045\5\v\0>\5\3\0045\5\f\0>\5\4\4=\4\r\3=\3\14\2B\0\2\1K\0\1\0\vconfig\rshortcut\1\0\5\vaction\23Telescope dotfiles\tdesc\rdotfiles\bkey\6d\ticon\t \ngroup\rConstant\1\0\5\vaction\18Telescope app\tdesc\tApps\bkey\6a\ticon\t \ngroup\vString\1\0\5\vactionCTelescope find_files find_command=rg,--ignore,--hidden,--files\tdesc\nFiles\bkey\6f\ticon\t \ngroup\rFunction\1\0\5\vaction\16Lazy update\tdesc\vUpdate\bkey\6u\ticon\t \ngroup\fInclude\fproject\1\0\1\venable\2\16week_header\1\0\1\17disable_move\2\1\0\1\venable\2\1\0\1\ntheme\nhyper\nsetup\14dashboard\frequire\0" },
     loaded = false,
     needs_bufread = false,
     only_cond = false,
@@ -137,6 +137,16 @@ _G.packer_plugins = {
     path = "/home/tripto/.local/share/nvim/site/pack/packer/start/mason.nvim",
     url = "https://github.com/williamboman/mason.nvim"
   },
+  ["noice.nvim"] = {
+    loaded = true,
+    path = "/home/tripto/.local/share/nvim/site/pack/packer/start/noice.nvim",
+    url = "https://github.com/folke/noice.nvim"
+  },
+  ["nui.nvim"] = {
+    loaded = true,
+    path = "/home/tripto/.local/share/nvim/site/pack/packer/start/nui.nvim",
+    url = "https://github.com/MunifTanjim/nui.nvim"
+  },
   ["nvim-autopairs"] = {
     loaded = true,
     path = "/home/tripto/.local/share/nvim/site/pack/packer/start/nvim-autopairs",
@@ -156,6 +166,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/tripto/.local/share/nvim/site/pack/packer/start/nvim-notify",
     url = "https://github.com/rcarriga/nvim-notify"
+  },
+  ["nvim-spectre"] = {
+    loaded = true,
+    path = "/home/tripto/.local/share/nvim/site/pack/packer/start/nvim-spectre",
+    url = "https://github.com/nvim-pack/nvim-spectre"
   },
   ["nvim-tree.lua"] = {
     loaded = true,
